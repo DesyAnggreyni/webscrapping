@@ -4,8 +4,8 @@ import pandas as pd
 # # import tensorflow-cpu==2.10.1 as tf
 # from tensorflow.keras import layers, Model
 # from sklearn.preprocessing import MinMaxScaler
-import joblib
-joblib.dump(scaler, 'scaler.pkl')
+# import joblib
+# joblib.dump(scaler, 'scaler.pkl')
 
 # Load model dan scaler
 # model = tf.keras.models.load_model('vae_model.h5')
