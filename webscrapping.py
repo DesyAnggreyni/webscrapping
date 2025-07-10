@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import tensorflow-cpu==2.10.1 as tf
+# import tensorflow-cpu==2.10.1 as tf
 from tensorflow.keras import layers, Model
 from sklearn.preprocessing import MinMaxScaler
 import joblib
