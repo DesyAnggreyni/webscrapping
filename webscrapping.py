@@ -16,7 +16,7 @@ st.write("Model: Variational Autoencoder")
 
 # Input dari user
 tahun = st.slider("Pilih Tahun Produksi Mobil", 2003, 2024, 2015)
-fitur_tambahan = st.number_input("Masukkan Fitur Tambahan (contoh: nama_mobil)", value=50000)
+fitur_tambahan = st.number_input("Masukkan Fitur Harga Mobil", value=50000)
 
 # Button prediksi
 if st.button("Prediksi Harga"):
