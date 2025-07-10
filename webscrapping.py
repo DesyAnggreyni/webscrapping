@@ -8,8 +8,8 @@ import joblib
 joblib.dump(scaler, 'scaler.pkl')
 
 # Load model dan scaler
-model = tf.keras.models.load_model('vae_model.h5')
-scaler = joblib.load('scaler.pkl') 
+# model = tf.keras.models.load_model('vae_model.h5')
+# scaler = joblib.load('scaler.pkl') 
 # Judul
 st.title("Prediksi Harga Mobil Bekas dengan VAE")
 st.write("Model: Variational Autoencoder")
