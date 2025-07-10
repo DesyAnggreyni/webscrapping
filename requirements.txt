@@ -1,4 +1,4 @@
-tensorflow
+tensorflow-cpu==2.10.1
 tensorflow.keras
 joblib
 scikit-learn
