@@ -6,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 st.set_page_config(page_title="Prediksi Harga Mobil Bekas dengan VAE", layout="centered")
 
 st.title("Prediksi Harga Mobil Bekas dengan VAE")
-st.write("Model: Variational Autoencoder (implementasi NumPy, tanpa TensorFlow)")
+st.write("Model: Variational Autoencoder")
 
 CSV_PATH = "mobil_bekas_pertahun.csv"
 
